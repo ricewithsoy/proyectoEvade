@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btnNoticias"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="288dp"
+        android:background="#64000000"
+        android:text="Noticias"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnImagenes"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="#64000000"
+        android:text="Imágenes"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNoticias" />
+
+    <Button
+        android:id="@+id/btnUsuarios"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Usuarios"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnVideos"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="#64000000"
+        android:text="Videos"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImagenes" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
